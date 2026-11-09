@@ -1,0 +1,9 @@
+@media(max-width:960px){
+ .hero,.split,.product,.cart-layout{grid-template-columns:1fr}.hero{padding-top:110px}.hero-art{max-height:60vh}
+ .band,.footer,.pair{grid-template-columns:1fr}
+ .site-header{grid-template-columns:auto 1fr auto}.logo{text-align:center;font-size:1.4rem}
+ .burger{display:block}.nav{position:fixed;inset:0;background:var(--ink);flex-direction:column;justify-content:center;align-items:center;gap:22px;font:2.4rem var(--serif);transform:translateX(-100%);transition:transform .4s cubic-bezier(.2,.7,.2,1);z-index:-1}
+ .menu-open .nav{transform:none}.nav a{opacity:1}.icon-btn[data-search],.tools a:not(.pill){display:none}
+ .line{grid-template-columns:72px 1fr;}.line .qty,.line .price{grid-column:2}
+}
+@media(max-width:520px){.fields{grid-template-columns:1fr}.grid{grid-template-columns:repeat(2,1fr);gap:20px 12px}.card .btn{padding:10px}.row>span{width:100%}}
